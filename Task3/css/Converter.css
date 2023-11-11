@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    border-color: purple; 
+    width: auto;
+    height: auto;
+    
+}
+#aa{
+    height: 80;
+    background-color: purple;
+}
+td{
+    padding: 10px;
+}
+#submit:hover{
+    background-color: rgb(90, 123, 150);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 100px;
+}

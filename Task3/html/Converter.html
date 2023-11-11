@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="../css/Converter.css" />
+</head>
+
+<body>
+    <center>
+        <table border="5">
+            <form id="calTemp" onsubmit="calTemp(); return false">
+                <tr id="aa">
+                    <td colspan="2" align="center" >
+                        <h1>Enter the temperature to convert</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" name="temperature" id="temperature" value="0">
+                    </td>
+                    <td  align="center" rowspan="2" width="50%">
+                        <span id="result"></span>
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        <select name="temperature_diff" id="temperature_diff">
+                        <option value="celsius">&#176;Celsius</option>
+                        <option value="fah">&#176;Fahrenheit</option>
+                        </select>
+                    </td>
+            </tr>
+            <br>
+            
+            <tr >
+                <td  align="center" colspan="2">
+                    <input type="submit" name="temperature" id="submit" value="Convert">
+                </td>
+            </tr>
+        </form>
+        </tabel>
+        </center>
+    <script src="/js/Converter.js"></script>
+</body>
+
+</html>
